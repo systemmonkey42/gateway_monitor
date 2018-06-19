@@ -2,10 +2,16 @@
   "name": "gateway-monitor",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "websocket": "^1.0.26"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
 }
